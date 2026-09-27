@@ -1,2 +1,9 @@
 /* Styles Sheet */
 
+body {
+  background color: black;
+}
+
+.header {
+  background color: grey;
+}
