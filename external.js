@@ -3,7 +3,7 @@
 let box = document.querySelectorAll(".box");
 
 const images = [
-    "Useless-Web/img1.jpg",
+    "img1.jpg",
     "img2.jpg",
     "img3.jpg",
     "img4.jpg",
