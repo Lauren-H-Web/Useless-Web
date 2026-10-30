@@ -53,7 +53,7 @@ p {
 
 .box {
   display:block;
-  background-image: url(images/paw-print.jpg);
+  background-image: url(paw-print.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
