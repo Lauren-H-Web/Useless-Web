@@ -2,7 +2,7 @@
 
 let box = document.querySelectorAll(".box");
 
-const = images [
+const = root [
     "img1.jpg",
     "img2.jpg",
     "img3.jpg",
@@ -27,14 +27,14 @@ const = images [
     "img22.jpg",
     "img23.jpg",
     "img24.jpg",
-      "images/img25.jpg",
-     "images/img26.jpg",
-    "images/img27.jpg",
-    "images/img28.jpg",
-    "images/img29.jpg",
-    "images/img30.jpg",
-    "images/img31.jpg",
-    "images/img32.jpg",
+      "img25.jpg",
+     "img26.jpg",
+    "img27.jpg",
+    "img28.jpg",
+    "img29.jpg",
+    "img30.jpg",
+    "img31.jpg",
+    "img32.jpg",
 ];
 
 box.forEach(function(box) {
