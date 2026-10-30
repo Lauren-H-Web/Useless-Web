@@ -53,7 +53,11 @@ p {
 
 .box {
   display:block;
-  background-color: rgb(199, 205, 212);
+  background-image: url(images/paw-print.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
   border-radius:15px;
   cursor:pointer;
   width:250px;
@@ -61,7 +65,11 @@ p {
   aspect-ratio: 1/1;
   box-sizing:border-box;
   margin-top: 30px;
-  border:2px solid rgb(255, 154, 46);
+  border:3px solid rgb(255, 154, 46);
+}
+
+.box:has(img) {
+  background-image: none;
 }
 
 .box img {
