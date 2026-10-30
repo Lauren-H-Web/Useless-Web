@@ -2,7 +2,7 @@
 
 let box = document.querySelectorAll(".box");
 
-const images = [
+const main = [
     "img1.jpg",
     "img2.jpg",
     "img3.jpg",
