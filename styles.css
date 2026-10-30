@@ -8,8 +8,10 @@ body {
 /*Header*/
 
 .header {
-  background-color:rgb(255, 237, 237);
+  background-color:rgb(214, 243, 255);
+  border-radius: 20px;
   margin-bottom: 20px;
+  padding-top: 15px;
   flex-direction:column;
   justify-content: center;
   align-items: center;
@@ -26,8 +28,6 @@ h1, p {
 }
 
 h1 {
-  padding-top: 25px;
-  padding-bottom: 8px;
   font-size:36px;
 }
 
@@ -40,7 +40,7 @@ p {
 #grey-box{
     display:grid;
     grid-template-columns: repeat(4, minmax(0, 2fr));
-    gap:5px;
+    gap:12px;
 }
 
 .frame {
@@ -53,7 +53,7 @@ p {
 
 .box {
   display:block;
-  background-image: url(paw-print.jpg);
+  background-image: url(images/paw-print.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -65,7 +65,7 @@ p {
   aspect-ratio: 1/1;
   box-sizing:border-box;
   margin-top: 30px;
-  border:3px solid rgb(255, 154, 46);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .box:has(img) {
@@ -85,6 +85,17 @@ p {
   width:180px;
   height:180px;
     }
+
+  header {
+     padding-top: 10px;
+  }
+    h1 {
+  font-size:26px;
+  }
+
+  p {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 767px){
@@ -99,6 +110,16 @@ p {
     gap:5px;
     row-gap: 5px;
     }
+    header {
+        padding-top: 5px;
+      }
+     h1 {
+  font-size:16px;
+  }
+
+  p {
+    font-size: 11px;
+  }
 }
 
 /* Button */
@@ -110,13 +131,17 @@ p {
   cursor:pointer;
   transition:background-color 0.3s ease;
   border-radius: 10px;
+  width: 200px;
+  font-size: 17px;
 }
 
 #button:hover {
   border-color: rgb(0, 4, 255);
-  width: 8%;
+  width: 15%;
 }
 
 #button:active {
   background-color: #ff9e9e;
 }
+    
+  
