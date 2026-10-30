@@ -2,7 +2,7 @@
 
 let box = document.querySelectorAll(".box");
 
-const imgUrl = "./" + root[0]; [
+const = images[
     "img1.jpg",
     "img2.jpg",
     "img3.jpg",
