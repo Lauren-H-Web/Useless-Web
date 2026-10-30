@@ -25,7 +25,7 @@ h1, p {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: ![#ed776b];
+  color: ![#d46559];
 }
 
 h1 {
@@ -135,6 +135,8 @@ p {
   border-radius: 10px;
   width: 200px;
   font-size: 17px;
+  color: ![#ed776b];
+  border-color: ![#ed776b];
 }
 
 #button:hover {
