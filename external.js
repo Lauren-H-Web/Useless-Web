@@ -1,18 +1,5 @@
 /*External JavaScript File */
 
-/* Random May USE??????
-const imageBank= [
-    "images/dogCar.jpg"
-];
-    
-const box=document.querySelectorAll("box");
-
-box.forEach("click",function)() {
-    const box=imageBank
-}); */
-
-/* Selection */
-
 let box = document.querySelectorAll(".box");
 
 const images = [
