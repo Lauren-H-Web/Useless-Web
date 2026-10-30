@@ -27,6 +27,14 @@ const = images [
     "img22.jpg",
     "img23.jpg",
     "img24.jpg",
+      "images/img25.jpg",
+     "images/img26.jpg",
+    "images/img27.jpg",
+    "images/img28.jpg",
+    "images/img29.jpg",
+    "images/img30.jpg",
+    "images/img31.jpg",
+    "images/img32.jpg",
 ];
 
 box.forEach(function(box) {
