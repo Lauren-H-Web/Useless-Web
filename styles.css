@@ -53,16 +53,19 @@ p {
 
 .box {
   display:block;
-  background-image: url("paw-print.jpg");
+  background-image: url(images/paw-print.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  overflow: hidden;  
+  border-radius:15px;
   cursor:pointer;
   width:250px;
   height:250px;
   aspect-ratio: 1/1;
   box-sizing:border-box;
   margin-top: 30px;
+  border:3px solid rgb(255, 154, 46);
 }
 
 .box:has(img) {
