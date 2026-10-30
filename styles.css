@@ -54,7 +54,7 @@ p {
 .box {
   display:block;
   background-color: rgb(199, 205, 212);
-  border-radius:10px;
+  border-radius:15px;
   cursor:pointer;
   width:250px;
   height:250px;
